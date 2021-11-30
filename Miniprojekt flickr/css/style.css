@@ -1,0 +1,30 @@
+
+body{
+  text-align: center;
+  background-color: gray;
+  color: white;
+  /* justify-content: center; */
+}
+
+.box{
+  border: solid 3px white;
+  /* justify-content: center; */
+}
+
+img{
+margin-top: 3rem;
+margin-bottom: 3rem;
+margin-right: 9rem;
+margin-left: 9rem;
+border: solid 5px black;
+justify-content: center;
+}
+
+#flexboxen{
+  display: flex;
+  flex-wrap: wrap;
+  border: solid 3px white;
+  /* width: 60%; */
+  justify-content: center;
+}
+

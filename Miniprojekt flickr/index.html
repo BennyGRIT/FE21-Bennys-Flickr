@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
+    <title>Miniprojekt Flickr</title>
+</head>
+
+<body>
+
+    <h1>Bennys ultimata flickr sida!</h1>
+
+    <form id='myForm'>
+        <div class='box'>
+
+            <div>
+                Välj ett sökord på vad för bilder du vill söka på idag:
+                <input id='imageText' type='text' placeholder='jaws' value='jaws'>
+            </div>
+
+            <div>
+                <label for='imageSize'>Välj en storlek på bilden:</label>
+
+                <select id='imageSize' name='imageSize'>
+                    <option value='c'>XL</option>
+                    <option value='w'>Large</option>
+                    <option value='m'>Medium</option>
+                </select>
+            </div>
+
+
+            <div>
+                <label for='imageNmbr'>Välj antal bilder du maximalt vill titta på:</label>
+
+                <select id='imageNmbr' name='imageNmbr'>
+                    <option value='1'>1 bild</option>
+                    <option value='2'>2 bilder</option>
+                    <option value='3'>3 bilder</option>
+                    <option value='4'>4 bilder</option>
+                    <option value='5'>5 bilder</option>
+                    <option value='10'>10 bilder</option>
+                    <option value='15'>15 bilder</option>
+                    <option value='20'>20 bilder</option>
+
+                </select>
+            </div>
+
+            <div>
+                <button id='submit'>Sök Flickr bilder</button>
+                <button type='reset' id='reset'>Börja om</button>
+            </div>
+
+    </form>
+
+
+    </div>
+
+    <div id="flexboxen">
+    </div>
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
